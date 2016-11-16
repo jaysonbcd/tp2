@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title></title>
+   </head>
+   <body>
+      <form action="http://www.iut-fbleau.fr/sitebp/get.php" method="get">
+         <label for="nom">Nom</label>
+         <input type="text" id="nom" name="text"  <br />
+         <label for="prenom">Prenom</label>
+         <input type="text" id="prenom" required> <br />
+         <label for="naissance">Date de naissance</label>
+         <input type="date" id="naissance" required> <br />
+         <label for="email">email</label>
+         <input type="email" id="email" required> <br />
+         <label for="postal">code postal</label>
+         <input type="number" maxlength ="5" id="postal" required> <br />
+         <input type="radio" name="gender" value="male" checked> Homme
+         <input type="radio" name="gender" value="female"> Femme<br>  <br />
+         <label for="semestre">Semestre</label>
+         <SELECT name="nom" size="1">
+            <OPTION>S1
+            <OPTION selected>S2
+            <OPTION>S3
+            <OPTION>S4
+         </SELECT>
+         <br />
+         <label for="niveau">Niveau en html</label>
+         <input type="range" value="10" max="10" min="0" step="1"> <br />
+         <label for="message">message</label>
+         <TEXTAREA name="nom" rows=4 cols=40></TEXTAREA>
+         <br />
+         <input type="submit" name="soumission" value="envoyer" />
+      </form>
+   </body>
+</html>
